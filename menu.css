@@ -1,0 +1,140 @@
+/* Basic styles */
+body {
+    background-color: #F3E5D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Default font for better cross-browser compatibility */
+}
+
+.content-container {
+    background-color: white;
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    max-width: 800px; /* Optional: Adjust to fit your design */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.divinside {
+    background-color: #FFF7FC;
+    border: 2px solid #ccc; /* Light grey border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px;
+    max-width: 600px; /* Optional: Adjust to fit your design */
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.989); 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+h1 {
+    font-family: Georgia, serif;
+    color: #333;
+}
+
+h3 {
+    font-family: Georgia, serif;
+    color: #6C2E45;
+}
+
+p {
+    color: #666;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light grey border for table cells */
+    text-align: left;
+}
+
+table tr {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light grey border for table cells */
+}
+
+li {
+    color: #6C2E45;
+}
+
+b {
+    font-weight: bold; /* Correct way to make text bold */
+}
+
+hr {
+    color: gray;
+    border: 0;
+    border-top: 1px solid #ccc; /* Border for horizontal rule */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .content-container, .divinside {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Adjust subheading size */
+    }
+
+    ul, ol {
+        margin-left: 15px;
+    }
+
+    table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-container, .divinside {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2em; /* Further adjust heading size */
+    }
+
+    h3 {
+        font-size: 1em; /* Further adjust subheading size */
+    }
+
+    table td {
+        padding: 6px;
+    }
+}
+
+
